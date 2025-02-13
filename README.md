@@ -1,6 +1,6 @@
 # INS_task
 This project analyzes three classical encryption techniques: the Playfair, Hill, and Vigenère Ciphers. It examines their encryption methods, complexities, strengths, weaknesses, and cryptanalysis approaches. The discussion includes their vulnerabilities and proposes a hybrid cipher design to address these limitations.
-<div> <h3>Hybrid cipher</h3>
+<div> <h3>Hybrid cipher</h3></div>
   The hybrid cipher in this report merges substitution and transposition methods to create a secure encryption system with a minimum of 128-bit strength. It uses confusion and diffusion principles essential to modern cryptography, making it resilient against various attack strategies.
 A Modified Vigenère Cipher is employed for substitution, introducing non-linearity through a key-dependent mechanism that changes plaintext into ciphertext via modular arithmetic. This ensures identical plaintext blocks create distinct ciphertext blocks, reducing frequency analysis risks. However, substitution alone cannot combat statistical pattern attacks.
 To enhance security, a Matrix-Based Transposition Layer rearranges substituted blocks based on a key-generated pseudorandom permutation, dispersing the influence of each character across multiple ciphertext blocks and disrupting patterns. The collaboration of substitution and transposition ensures strong non-linearity and resistance to structural analysis.
@@ -69,4 +69,4 @@ Key Achievements:
 3.	Hybrid Strength: The synergistic use of substitution and transposition obscures the plaintext-ciphertext relationship and eliminates structural patterns in ciphertext, reducing vulnerability to various attacks.
 4.	128-bit Encryption Strength: Employing large blocks and high-entropy keys ensures security equivalent to at least 128-bit encryption, suitable for sensitive data protection.
 
-</div>
+
